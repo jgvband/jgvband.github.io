@@ -11,7 +11,7 @@ This includes:
 - Local or hobbyist bands  
 - Non‑commercial creative projects  
 
-See: [`LICENSE`](./LICENSE.md)
+See: [`LICENSE`](./license/LICENSE.md)
 
 ### 💼 Commercial Use (Label‑Managed Artists)
 If you are:
@@ -22,7 +22,7 @@ If you are:
 
 …then you must obtain a **commercial license**.
 
-See: [`LICENSE-COMMERCIAL`](./LICENSE-COMMERCIAL.md)
+See: [`LICENSE-COMMERCIAL`](./license/LICENSE-COMMERCIAL.md)
 
 For commercial licensing inquiries:
 
