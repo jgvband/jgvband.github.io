@@ -30,7 +30,7 @@ The following groups **must** obtain a commercial license:
 - Content creators producing monetized videos, streams, or posts
 - Anyone using the software in a commercial product, service, campaign, or revenue‑generating activity
 
-If you fall into the commercial category, see `LICENSE-COMMERCIAL`.
+If you fall into the commercial category, see [`LICENSE-COMMERCIAL`](./LICENSE-COMMERCIAL.md).
 
 ---
 
