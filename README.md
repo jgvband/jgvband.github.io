@@ -26,4 +26,4 @@ See: [`LICENSE-COMMERCIAL`](./license/LICENSE-COMMERCIAL.md)
 For commercial licensing inquiries:
 
 **Aulternative Media**
-📧 [aulternativemedia@gmail.com](mailto:aulternativemedia@gmail.com?subject=LinkHUB%20Licensing)
+📧 [aulternativemedia@gmail.com](mailto:aulternativemedia@gmail.com?subject=LinkHUB.io%20Licensing)
