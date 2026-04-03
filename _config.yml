@@ -1,0 +1,42 @@
+# --- BIO ---
+name: "Aulternative Media"
+bio: "Aulternative Media is a Ventura, CA–based creative agency specializing in web development, photography, and video production. We build clean, modern digital experiences while empowering our partners to fully own their content. No gatekeeping, no hidden rights—just authentic visuals and technology that stays in your hands."
+# Logo photo, you can upload a photo in this directory, and change this to match the filename, or point to a URL of an existing photo online.
+photoURL: "photo.png"
+
+# --- SOCIAL MEDIA ---
+# Enter usernames only — leave blank to hide a platform.
+# You can reorder them as you like, top will display first.
+social:
+  instagram: "aulternative.media"
+  spotify: ""
+  youtube: ""
+  apple: "" # requires the numerical identifier after the text name, ex: [username]/1679026261
+  amazon: "" # requires the amazon identifier before the text name, ex: B0BZJXYBX7/[username]
+  threads: ""
+  linkedin: ""
+  discord: ""
+  soundcloud: ""
+  tiktok: ""
+  facebook: ""
+  twitter: ""
+  email: "aulternativemedia@gmail.com"
+
+embeds:
+# Embed spotify widgets or youtube videos on your page. Add as many as you want, they must follow this format:
+#  - type: spotify
+#    id: "SPOTIFY-ID"
+#  - type: youtube
+#    id: "YOUTUBE-ID"
+
+# --- LAYOUT OPTIONS ---
+siteTheme:    "dark" # options: "dark", "light", "neon", "glass"
+socialStyle:  "icons" # options: "buttons", "icons"
+
+# --- GOOGLE ANALYTICS ---
+# used for tracking engagement, you must set up your own google analytics account.
+# enter the tracking ID provided by google, it will look like this: G-XXXXXXXXXXX
+analytics: ""
+
+# DO NOT EDIT OR REMOVE THIS - GitHub Pages requires a theme declaration to work
+theme: null
