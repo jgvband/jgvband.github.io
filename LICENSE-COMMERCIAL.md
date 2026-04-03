@@ -23,7 +23,6 @@ A commercial license grants:
 
 - Permission to use the software for commercial or revenue‑generating purposes  
 - Rights to integrate the software into commercial workflows  
-- Optional priority support  
 - Optional custom licensing terms  
 - Removal of non‑commercial restrictions
 
