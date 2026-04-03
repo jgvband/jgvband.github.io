@@ -1,0 +1,64 @@
+amazon:
+  url:    "https://music.amazon.com/artists/%ID%"
+  icon:   "fab fa-amazon"
+  color:  "FF9900"
+
+apple:
+  url:    "https://music.apple.com/profile/%ID%"
+  icon:   "fab fa-apple"
+  color:  "FFFFFF"
+
+discord:
+  url:    "https://discord.gg/%ID%"
+  icon:   "fab fa-discord"
+  color:  "5865F2"
+
+email:
+  url:    "mailto:%ID%"
+  icon:   "fa fa-envelope"
+  color:  "FFFFFF"
+
+facebook:
+  url:    "https://facebook.com/%ID%"
+  icon:   "fab fa-facebook"
+  color:  "1877F2"
+
+instagram:
+  url:    "https://instagram.com/%ID%"
+  icon:   "fab fa-instagram"
+  color:  "E1306C"
+
+linkedin:
+  url:    "https://linkedin.com/in/%ID%"
+  icon:   "fab fa-linkedin"
+  color:  "0A66C2"
+
+soundcloud:
+  url:    "https://soundcloud.com/%ID%"
+  icon:   "fab fa-soundcloud"
+  color:  "FF5500"
+
+spotify:
+  url:    "https://open.spotify.com/artist/%ID%"
+  icon:   "fab fa-spotify"
+  color:  "1DB954"
+
+threads:
+  url:    "https://threads.net/@%ID%"
+  icon:   "fa-brands fa-threads"
+  color:  "000000"
+
+tiktok:
+  url:    "https://tiktok.com/@%ID%"
+  icon:   "fab fa-tiktok"
+  color:  "69C9D0"
+
+twitter:
+  url:    "https://twitter.com/%ID%"
+  icon:   "fab fa-x-twitter"
+  color:  "1DA1F2"
+
+youtube:
+  url:    "https://youtube.com/@%ID%"
+  icon:   "fab fa-youtube"
+  color:  "FF0000"
