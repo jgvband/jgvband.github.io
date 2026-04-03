@@ -6,22 +6,29 @@ You may use, copy, modify, and share this software **for non‑commercial purpos
 
 ---
 
-## Additional Terms for Music Artists
+## Additional Terms for All Users
 
-This software is intended to support independent musicians.  
-To clarify permitted use:
+This software may be used by **any individual, group, or organization** as long as the use is strictly **non‑commercial**.
 
 ### ✔ Allowed Under the Non‑Commercial License
-- Independent bands and solo artists who are **not** represented by a record label  
-- Artists who self‑manage or work with non‑commercial volunteer teams  
-- Bands using the software for personal, creative, or non‑revenue‑generating purposes  
-- Local or hobbyist musicians without commercial backing
+The following groups may use the software **without a commercial license**, provided their use is not monetized:
+
+- Hobbyists, students, and educators
+- Nonprofits and community organizations
+- Independent musicians and bands who are **not signed** to a record label
+- Solo artists who self‑manage
+- Developers using the software for personal or experimental projects
+- Anyone creating content that is not monetized or used for business purposes
 
 ### ❌ Requires a Commercial License
-- Any band or artist **signed to a record label** (major, indie, or subsidiary)  
-- Artists managed by a **commercial management company**  
-- Bands represented by an **agency**, **publisher**, or **commercial organization**  
-- Any use of the software as part of a commercial release, tour, marketing campaign, or monetized production
+The following groups **must** obtain a commercial license:
+
+- Companies, startups, or organizations using the software internally or externally
+- Bands or artists **signed to a record label** (major, indie, imprint, or subsidiary)
+- Artists represented by a **commercial manager**, **agency**, or **publisher**
+- **Social media influencers** who monetize their content (ads, sponsorships, brand deals, affiliate links, etc.)
+- Content creators producing monetized videos, streams, or posts
+- Anyone using the software in a commercial product, service, campaign, or revenue‑generating activity
 
 If you fall into the commercial category, see `LICENSE-COMMERCIAL`.
 
