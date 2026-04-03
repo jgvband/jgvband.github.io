@@ -1,19 +1,30 @@
 # Commercial License
 
-Bands, artists, or organizations that do not qualify for non‑commercial use must obtain a commercial license.
+Commercial use of this software requires a paid commercial license.
 
-This includes:
+This includes, but is not limited to:
 
-- Bands or artists signed to **any** record label (major, indie, imprint, or subsidiary)  
-- Artists represented by a **commercial manager**, **booking agent**, or **talent agency**  
-- Bands working with a **commercial production company**, **publisher**, or **marketing firm**  
-- Any use of the software in monetized recordings, tours, merchandise, or promotional campaigns  
-- Any use within a company, organization, or commercial environment
+### 🏢 Businesses & Organizations
+- Companies, startups, or agencies
+- Commercial studios, production houses, or marketing teams
+- Any internal or external business use
+- SaaS, hosted services, or integrations into commercial products
+
+### 🎵 Music Artists & Bands
+- Bands or artists signed to **any** record label
+- Artists represented by a **commercial manager**, **booking agent**, or **talent agency**
+- Artists working with a **publisher**, **marketing firm**, or **commercial production company**
+- Use of the software in monetized releases, tours, merchandise, or promotional campaigns
+
+### 📱 Social Media Influencers & Content Creators
+- Influencers monetizing content through ads, sponsorships, affiliate links, or brand deals
+- YouTubers, streamers, TikTok creators, or podcasters earning revenue
+- Creators using the software in monetized content, thumbnails, branding, or production workflows
 
 To obtain a commercial license, contact:
 
 **Aulternative Media**  
-📧 [aulternativemedia@gmail.com](mailto:aulternativemedia@gmail.com?subject=LinkHUB%20Licensing)
+📧 [aulternativemedia@gmail.com](mailto:aulternativemedia@gmail.com?subject=LinkHUB.io%20Licensing)
 
 ---
 
@@ -21,9 +32,9 @@ To obtain a commercial license, contact:
 
 A commercial license grants:
 
-- Permission to use the software for commercial or revenue‑generating purposes  
-- Rights to integrate the software into commercial workflows  
-- Optional custom licensing terms  
+- Permission to use the software for commercial or revenue‑generating purposes
+- Rights to integrate the software into commercial workflows
+- Optional custom licensing terms
 - Removal of non‑commercial restrictions
 
 ---
@@ -32,9 +43,9 @@ A commercial license grants:
 
 Commercial licensing fees depend on:
 
-- Artist or company size  
-- Intended usage  
-- Distribution scale  
+- Artist or company size
+- Intended usage
+- Distribution scale
 - Support requirements
 
 Contact us for a quote.
