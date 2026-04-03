@@ -10,7 +10,7 @@ Anyone may use this software under the **PolyForm Noncommercial License 1.0.0**,
 - Independent musicians
 - Developers using it for personal projects
 
-See: [`LICENSE`](./license/LICENSE)
+See: [`LICENSE`](./license/LICENSE.md)
 
 ### 💼 Commercial Use
 A commercial license is required for:
@@ -21,7 +21,7 @@ A commercial license is required for:
 - Companies, startups, and commercial organizations
 - Any monetized or revenue‑generating use
 
-See: [`LICENSE-COMMERCIAL`](./license/LICENSE-COMMERCIAL)
+See: [`LICENSE-COMMERCIAL`](./license/LICENSE-COMMERCIAL.md)
 
 For commercial licensing inquiries:
 
