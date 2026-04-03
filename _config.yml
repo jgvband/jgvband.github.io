@@ -1,7 +1,7 @@
 # --- BIO ---
 name: "Aulternative Media"
 bio: "Aulternative Media is a Ventura, CA–based creative agency specializing in web development, photography, and video production. We build clean, modern digital experiences while empowering our partners to fully own their content. No gatekeeping, no hidden rights—just authentic visuals and technology that stays in your hands."
-# Logo photo, you can upload a photo in this directory, and change this to match the filename, or point to a URL of an existing photo online.
+# Logo photo, you can upload a photo in this directory, and change this to match the filename, or point to the URL of an existing photo online.
 photoURL: "photo.png"
 
 # --- SOCIAL MEDIA ---
