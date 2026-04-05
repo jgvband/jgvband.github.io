@@ -33,7 +33,7 @@
 <body class="{{ theme.pageStyle | default: 'dark' }} {{ theme.header | default: 'banner' }}" social="{{ theme.linkStyle | default: 'icons' }}" palette="{{ theme.palette | default: 'rasta' }}" vibe="{{ theme.bgstyle | default: 'stripes' }}">
 
 <div id="avatar">
-	{% if site.photoURL %}
+	{% if site.photoURL != "" %}
 	<img id="profile-photo" src="{{ site.photoURL }}" alt="{{ site.name | default: 'Profile' }}">
 	{% endif %}
 	<div class="theme">
