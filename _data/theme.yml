@@ -1,0 +1,6 @@
+header:     "banner"   # options: "round", "squircle", "banner"
+palette:    "rasta"    # options: "rasta", "synthwave", "lofi", "sunset", "cyberpunk", "earthy", "autumn"
+bgstyle:    "stripes"  # options: "stripes", "zigzag", "waves", "gradient"
+
+pageStyle:  "dark"     # options: "dark", "light", "neon", "glass" "blobs"
+linkStyle:  "icons"    # options: "icons", "buttons"
