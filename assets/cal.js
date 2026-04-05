@@ -15,7 +15,7 @@ function prettyPrint(date) {
 }
 
 function getMapDirections(location) {
-	((navigator.platform.indexOf("iPhone") != -1) ||
+	if ((navigator.platform.indexOf("iPhone") != -1) ||
 	(navigator.platform.indexOf("iPad") != -1) ||
 	(navigator.platform.indexOf("iPod") != -1)) {
 		window.open("maps://maps.google.com/maps/dir//"+ encodeURI(location), 'gigmatch-directions');
