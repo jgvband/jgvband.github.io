@@ -123,7 +123,7 @@ function upcoming(el, events) {
 		// Click handler for dialog
 		cell.addEventListener("click", () => {
 			if (cell.data && cell.data.name) {
-				let when = prettyPrint(`${y}-${m}-${d}`);
+				let when = prettyPrint(cell.data.start);
 				dialogBody.innerHTML = `
 				<h3 class="modal-name">${cell.data.name}</h3>
 				<p class="modal-date">${when} &bull; <span class="time">${cell.data.start} &ndash; ${cell.data.end}</span></p>
