@@ -29,13 +29,10 @@ embeds:
 #  - type: youtube
 #    id: "YOUTUBE-ID"
 
-# --- LAYOUT OPTIONS ---
-# moved to _data/theme.yml
-
-# --- GOOGLE ANALYTICS ---
-# used for tracking engagement, you must set up your own google analytics account.
-# enter the tracking ID provided by google, it will look like this: G-XXXXXXXXXXX
-analytics:  ""
-
+### ADVANCED FEATURES #####
+# google calendar to pull events from:
+calendar:  ""
+# google analytics account to track interactions with
+analytics: ""
 # DO NOT EDIT OR REMOVE THIS - GitHub Pages requires a theme declaration to work
 theme: null
