@@ -30,10 +30,10 @@
 	<script src="https://www.youtube.com/iframe_api"></script>
 	{% endif %}
 </head>
-<body class="{{ theme.pageStyle | default: 'dark' }} {{ theme.header | default: 'banner' }}" social="{{ theme.linkStyle | default: 'icons' }}" palette="{{ theme.palette | default: 'rasta' }}" vibe="{{ theme.bgstyle | default: 'stripes' }}">
+<body class="{{ site.data.theme.pageStyle | default: 'dark' }} {{ site.data.theme.header | default: 'banner' }}" social="{{ site.data.theme.linkStyle | default: 'icons' }}" palette="{{ site.data.theme.palette | default: 'rasta' }}" vibe="{{ site.data.theme.bgstyle | default: 'stripes' }}">
 
 <div id="avatar">
-	{% if site.photoURL != "" %}
+	{% if site.photoURL %}
 	<img id="profile-photo" src="{{ site.photoURL }}" alt="{{ site.name | default: 'Profile' }}">
 	{% endif %}
 	<div class="theme">
@@ -63,10 +63,9 @@
 			{% assign platform = platforms[0] %}
 			{% assign meta = site.data.platforms[platform] %}
 			{% assign url = meta.url | replace: "%ID%", id | replace: "/@@", "/@" %}
-			{% if platform == "email" %}
-				{% assign url = url | append: "?subject=Booking Inquiry via LinkHUB" %}
+			{% if platform == "email" and site.emailSubject %}
+				{% assign url = url | append: "?subject=" | append: site.emailSubject %}
 			{% endif %}
-
 			<a class="link" href="{{ url }}" style="--accent: #{{ meta.color }}" title="{{ platform | capitalize }}">
 			<i class="{{ meta.icon }}"></i>
 			{% if site.socialStyle == "buttons" %}
@@ -94,9 +93,27 @@
 <script type="text/javascript" src="assets/lazyloader.js"></script>
 <script type="text/javascript" src="assets/cal.js"></script>
 <script>
+const calendar = {
+	"id": "{{ site.calendar }}",
+	"style": "{{ site.data.theme.eventStyle | default: 'list' }}",
+	"limit": {{ site.data.theme.eventLimit | default: 3 | min: 10 }}
+}	
+//*
 upcoming("events", {
-	"2026-04-10": {name:"Uptown Lounge", location:"Uptown Lounge, 3126 State St, Santa Barbara, CA 93105, USA", address:"3126 State St<br/>Santa Barbara, CA 93105, USA", start: "2026-04-10T20:00:00-07:00", end: "2026-04-11T00:00:00-07:00"},
+	"2026-04-15" : [
+		{name:"Jacob & the Good Vibes", location:"Leashless, 456 E Main St, Ventura, CA 93001, USA", address:"456 E Main St<br/>Ventura, CA 93001, USA", start: "2026-04-15T20:00:00-07:00", end: "2026-04-15T20:45:00-07:00"}
+	],
+	"2026-04-17": [
+	    {name:"Jacob & the Good Vibes", location:"Saloon, 456 E Main St, Ventura, CA 93001, USA", address:"456 E Main St<br/>Ventura, CA 93001, USA", start: "2026-04-17T20:00:00-07:00", end: "2026-04-17T20:45:00-07:00"},
+		{name:"Onepeople", location:"KJs, 454 E Main St, Ventura, CA 93001, USA", address:"454 E Main St<br/>Ventura, CA 93001, USA", start: "2026-04-17T21:00:00-07:00", end: "2026-04-17T23:00:00-07:00"}
+	],
+	"2026-04-18": [
+		{name:"Heavy Rotation", location:"Copper Blues Cantina, 591 Collection Blvd, Oxnard, CA 93036, USA", address:"591 Collection Blvd<br/>Oxnard, CA 93036, USA", start: "2026-04-18T20:30:00-07:00", end: "2026-04-18T23:30:00-07:00"}
+	]
 });
+/*/
+getEvents("events", calendar.id);
+//*/
 </script>
 </body>
 </html>
