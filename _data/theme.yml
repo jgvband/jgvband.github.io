@@ -1,6 +1,9 @@
 header:     "banner"   # options: "round", "squircle", "banner"
 palette:    "rasta"    # options: "rasta", "synthwave", "lofi", "sunset", "cyberpunk", "earthy", "autumn"
-bgstyle:    "stripes"  # options: "stripes", "zigzag", "waves", "gradient"
+bgstyle:    "waves"    # options: "stripes", "zigzag", "waves", "gradient"
 
 pageStyle:  "dark"     # options: "dark", "light", "neon", "glass" "blobs"
 linkStyle:  "icons"    # options: "icons", "buttons"
+
+eventStyle: "list"     # options: "list", "month"
+eventLimit: 3          # note: only applies to list view, maximum number of events to show, it will not show more than 10.
