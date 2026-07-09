@@ -34,7 +34,17 @@ document.addEventListener("DOMContentLoaded", () => {
 		el.style.setProperty("--skew", (-10 - Math.random() * 30).toFixed(1) + "deg");
 		el.style.setProperty("--delay", (Math.random() * 0.8).toFixed(2) + "s");
 
-		// Create iframe
+		if (type == 'merch') {
+			const merch = document.createElement("a");
+			merch.className = 'merch-link';
+			merch.href = id;
+			merch.target = '_external';
+			merch.innerHTML = '<i class="fas fa-shopping-cart"></i>&nbsp;&nbsp;Merch Store';
+			el.appendChild(merch);
+			return;
+		}
+
+		// Create iframe 		
 		const iframe = document.createElement("iframe");
 		iframe.loading = "lazy";
 
