@@ -26,7 +26,7 @@ function trackYouTubeProgress(player, videoId) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-	document.querySelectorAll(".embed").forEach(el => {
+	document.querySelectorAll(".callout").forEach(el => {
 		const type = el.dataset.type;
 		const id = el.dataset.id;
 
