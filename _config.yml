@@ -1,18 +1,13 @@
-# --- BIO ---
-name:      "Aulternative Media"
-bio:       "Aulternative Media is a Ventura, CA–based creative agency specializing in web development, photography, and video production. We build clean, modern digital experiences while empowering our partners to fully own their content. No gatekeeping, no hidden rights—just authentic visuals and technology that stays in your hands."
-# Logo photo, you can upload a photo in this directory, and change this to match the filename, or point to a URL of an existing photo online.
-photoURL:  ""
+name:      "Jacob & the Good Vibes"
+bio:       "SoCal-based reggae fusion band blending R&B soul and Latin grooves, known for high-energy live performances and tight, dynamic musicianship. Check below for booking, music, and upcoming shows."
+photoURL:  "photo.png"
 
-# --- SOCIAL MEDIA ---
-# Enter usernames only — leave blank to hide a platform.
-# You can reorder them as you like, top will display first.
-social:
-  instagram:   "aulternative.media"
-  spotify:     ""
-  youtube:     ""
-  apple:       "" # requires the numerical identifier after the text name, ex: [username]/1679026261
-  amazon:      "" # requires the amazon identifier before the text name, ex: B0BZJXYBX7/[username]
+social: # User IDs only — leave blank to hide a platform, reorder as you like.
+  instagram:   "jacob_and_thegoodvibes"
+  spotify:     "40ewy6TdcihVbpBzB9zOgE"
+  youtube:     "@jacobandthegoodvibes"
+  apple:       "jacob-the-good-vibes/1679026261" # requires the numerical identifier after the text name, ex: [username]/1679026261
+  amazon:      "B0BZJXYBX7/jacob-the-good-vibes" # requires the amazon identifier before the text name, ex: B0BZJXYBX7/[username]
   threads:     ""
   linkedin:    ""
   discord:     ""
@@ -20,21 +15,22 @@ social:
   tiktok:      ""
   facebook:    ""
   twitter:     ""
-  email:       "aulternativemedia@gmail.com"
+  merch:       ""
+  email:       "jacobandthegoodvibes@gmail.com"
+
+emailSubject:  "Booking Inquiry via LinkHUB"
 
 callouts:
-# Embed spotify widgets or youtube videos on your page. Add as many as you want, they must follow this format:
-#  - type: merch
-#    id: "LINK TO MERCH SITE" 
-#  - type: spotify
-#    id: "SPOTIFY-ID"
-#  - type: youtube
-#    id: "YOUTUBE-ID"
+  - type: merch
+    id: "javascript:alert('COMING SOON!!')"
+  - type: spotify
+    id: "1gsRgmkHhzR2l3lVJDnrwg"
+  - type: youtube
+    id: "cn3zEuut3RY"
 
 ### ADVANCED FEATURES #####
 # google calendar to pull events from:
-calendar:  ""
+calendar:  "fc1f1d7fdfebccaeecc2de5b9542e2b138b1bceed4515e24f219b07187045b48@group.calendar.google.com"
 # google analytics account to track interactions with
 analytics: ""
-# DO NOT EDIT OR REMOVE THIS - GitHub Pages requires a theme declaration to work
-theme: null
+
