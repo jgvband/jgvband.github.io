@@ -135,14 +135,14 @@ body {
 	margin: auto;
 }
 
-.section {
+.section:not(:empty) {
 	margin: 0 0 var(--section-margin) 0;
 }
 
 #bio { order: 1; }
 #socials { order: 2; }
 #events, #event-list { order: 3; }
-#embeds { order: 4; }
+#callouts { order: 4; }
 
 body[social="buttons"] {
 	#events, #event-list { order: 2; }
@@ -321,8 +321,8 @@ p#profile-tagline {
 		*/
 	}
 
-/* EMBEDS *****/
-	div.embed {
+/* CALLOUTS *****/
+	div.callout {
 		--delay: 0s;
 		--skew: -20deg;
 
@@ -333,20 +333,20 @@ p#profile-tagline {
 		position: relative;
 	}
 
-	div.embed[data-type="youtube"] {
+	div.callout[data-type="youtube"] {
 		height: 250px;
 	}
 
 	/* Spotify is shorter */
-	div.embed[data-type="spotify"] {
+	div.callout[data-type="spotify"] {
 		height: 152px;
 	}
 
-	div.embed:last-child {
+	div.callout:last-child {
 		margin: 0;
 	}
 
-	div.embed:before {
+	div.callout:before {
 		content: "";
 		display: block;
 		backdrop-filter: blur(var(--blur));
@@ -364,6 +364,20 @@ p#profile-tagline {
 		);
 		transform: skew(var(--skew), 0deg);
 		animation: shimmer 1.5s infinite var(--delay);
+	}
+
+	.merch-link:not([href=""]) {
+		align-items: center;
+		background: url(../merch.jpg) right center no-repeat;
+		border: 1px solid var(--accent);
+		border-radius: var(--radius);
+		color: var(--text);
+		display: flex;
+		font-family: "Lexend", sans-serif;
+		font-size: 2.35em;
+		height: 100px;
+		padding-left: 1em;		
+		text-decoration: none;
 	}
 
 	iframe {
@@ -396,7 +410,6 @@ p#profile-tagline {
 		gap: .75em;
 		text-align: left;
 		text-decoration: none;
-		transition: var(--aniSpeed);
 	}
 
 	#event-list .event .date,
@@ -741,4 +754,4 @@ body[vibe="gradient"] .theme {
 		margin-top:  calc(var(--end) * var(--cycle) * var(--dy));
 		margin-left: calc(var(--end) * var(--cycle) * var(--dx));
 	}
-}
+} 
