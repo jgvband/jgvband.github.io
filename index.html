@@ -78,9 +78,11 @@
 
 	<div class="section" id="events"></div>
 
-	<div class="section" id="embeds">
-		{% for embed in site.embeds %}
-			<div class="embed" data-type="{{ embed.type }}" data-id="{{ embed.id }}"></div>
+	<div class="section" id="callouts">
+		{% for callout in site.callouts %}
+			{% if callout.id != "" %}
+				<div class="callout" data-type="{{ callout.type }}" data-id="{{ callout.id }}"></div>
+			{% endif %}
 		{% endfor %}
 	</div>
 </div>
