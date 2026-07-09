@@ -97,23 +97,8 @@ const calendar = {
 	"id": "{{ site.calendar }}",
 	"style": "{{ site.data.theme.eventStyle | default: 'list' }}",
 	"limit": {{ site.data.theme.eventLimit | default: 3 | min: 10 }}
-}	
-//*
-upcoming("events", {
-	"2026-04-15" : [
-		{name:"Jacob & the Good Vibes", location:"Leashless, 456 E Main St, Ventura, CA 93001, USA", address:"456 E Main St<br/>Ventura, CA 93001, USA", start: "2026-04-15T20:00:00-07:00", end: "2026-04-15T20:45:00-07:00"}
-	],
-	"2026-04-17": [
-	    {name:"Jacob & the Good Vibes", location:"Saloon, 456 E Main St, Ventura, CA 93001, USA", address:"456 E Main St<br/>Ventura, CA 93001, USA", start: "2026-04-17T20:00:00-07:00", end: "2026-04-17T20:45:00-07:00"},
-		{name:"Onepeople", location:"KJs, 454 E Main St, Ventura, CA 93001, USA", address:"454 E Main St<br/>Ventura, CA 93001, USA", start: "2026-04-17T21:00:00-07:00", end: "2026-04-17T23:00:00-07:00"}
-	],
-	"2026-04-18": [
-		{name:"Heavy Rotation", location:"Copper Blues Cantina, 591 Collection Blvd, Oxnard, CA 93036, USA", address:"591 Collection Blvd<br/>Oxnard, CA 93036, USA", start: "2026-04-18T20:30:00-07:00", end: "2026-04-18T23:30:00-07:00"}
-	]
-});
-/*/
+}
 getEvents("events", calendar.id);
-//*/
 </script>
 </body>
 </html>
