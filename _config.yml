@@ -22,8 +22,10 @@ social:
   twitter:     ""
   email:       "aulternativemedia@gmail.com"
 
-embeds:
+callouts:
 # Embed spotify widgets or youtube videos on your page. Add as many as you want, they must follow this format:
+#  - type: merch
+#    id: "LINK TO MERCH SITE" 
 #  - type: spotify
 #    id: "SPOTIFY-ID"
 #  - type: youtube
